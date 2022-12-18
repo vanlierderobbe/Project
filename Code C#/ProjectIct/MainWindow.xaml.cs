@@ -12,17 +12,14 @@ namespace ProjectIct
     public partial class MainWindow : Window
     {
         public string ReceivedData;
-
         bool isConnected = false;
         String[] ports;
         SerialPort arduinoPort;
         uint highscore = 0;
 
-
         public MainWindow()
         {
             InitializeComponent();
-
             arduinoPortName.Items.Add("None");
             foreach (string s in SerialPort.GetPortNames())
             arduinoPortName.Items.Add(s);
@@ -30,7 +27,6 @@ namespace ProjectIct
             arduinoPort.BaudRate = 9600;
             arduinoPort.Parity = Parity.None;
             arduinoPort.StopBits = StopBits.One;
-
             arduinoPort.DataReceived += new SerialDataReceivedEventHandler(Receive);
         }
 

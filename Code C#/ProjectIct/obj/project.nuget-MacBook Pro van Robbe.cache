@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rrh+37qCy+Ut1DXTCjpAuZdfv24CASxjtlBAtcuWrDI+Czz09R4uuunDpGnVqor/v3sCLS4GtfxabRNYFzLgww==",
+  "dgSpecHash": "yCmltQuL/EWeRFikbLZGDKHgrnUtMbfMHCmGeIAT+FuzGCExAWUHEUzeZMAjR02SAiiK/8n1oEFoGNHguNzDmg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\robbevanlierde\\OneDrive - Hogeschool VIVES\\School\\2022-2023\\Vives\\Ict\\Project\\Code project ict\\Project\\Code C#\\ProjectIct\\ProjectIct.csproj",
+  "projectFilePath": "C:\\Users\\robbevanlierde\\OneDrive - Hogeschool VIVES\\School\\2022-2023\\Vives\\Ict\\Project\\Code project ict\\Code C#\\ProjectIct\\ProjectIct.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\robbevanlierde\\.nuget\\packages\\runtime.linux-arm.runtime.native.system.io.ports\\7.0.0\\runtime.linux-arm.runtime.native.system.io.ports.7.0.0.nupkg.sha512",
     "C:\\Users\\robbevanlierde\\.nuget\\packages\\runtime.linux-arm64.runtime.native.system.io.ports\\7.0.0\\runtime.linux-arm64.runtime.native.system.io.ports.7.0.0.nupkg.sha512",

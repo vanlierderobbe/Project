@@ -232,11 +232,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\robbevanlierde\\OneDrive - Hogeschool VIVES\\School\\2022-2023\\Vives\\Ict\\Project\\Code project ict\\Project\\Code C#\\ProjectIct\\ProjectIct.csproj",
+      "projectUniqueName": "C:\\Users\\robbevanlierde\\OneDrive - Hogeschool VIVES\\School\\2022-2023\\Vives\\Ict\\Project\\Code project ict\\Code C#\\ProjectIct\\ProjectIct.csproj",
       "projectName": "ProjectIct",
-      "projectPath": "C:\\Users\\robbevanlierde\\OneDrive - Hogeschool VIVES\\School\\2022-2023\\Vives\\Ict\\Project\\Code project ict\\Project\\Code C#\\ProjectIct\\ProjectIct.csproj",
+      "projectPath": "C:\\Users\\robbevanlierde\\OneDrive - Hogeschool VIVES\\School\\2022-2023\\Vives\\Ict\\Project\\Code project ict\\Code C#\\ProjectIct\\ProjectIct.csproj",
       "packagesPath": "C:\\Users\\robbevanlierde\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\robbevanlierde\\OneDrive - Hogeschool VIVES\\School\\2022-2023\\Vives\\Ict\\Project\\Code project ict\\Project\\Code C#\\ProjectIct\\obj\\",
+      "outputPath": "C:\\Users\\robbevanlierde\\OneDrive - Hogeschool VIVES\\School\\2022-2023\\Vives\\Ict\\Project\\Code project ict\\Code C#\\ProjectIct\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
