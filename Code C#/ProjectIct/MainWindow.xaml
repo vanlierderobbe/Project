@@ -1,0 +1,57 @@
+﻿<Window x:Class="ProjectIct.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectIct"
+        mc:Ignorable="d"        
+        WindowStartupLocation="CenterScreen"
+        Title="MainWindow" SizeToContent="Height" Width="400" ResizeMode="NoResize" Closing="Window_Closing">
+    <Border CornerRadius="32" BorderThickness="5" BorderBrush="White">
+        <Border>
+            <Border.BorderBrush>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#F0EB36" Offset="0.0" />
+                    <GradientStop Color="#73C269" Offset="0.5" />
+                    <GradientStop Color="#1E91A5" Offset="1.0" />
+                </LinearGradientBrush>
+            </Border.BorderBrush>
+            <Grid>
+                <Grid.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1" >
+                        <GradientStop Color="#F0EB36" Offset="0.0" />
+                        <GradientStop Color="#73C269" Offset="0.5" />
+                        <GradientStop Color="#1E91A5" Offset="1.0" />
+                    </LinearGradientBrush>
+                </Grid.Background>
+                <StackPanel Margin="0">
+                    <GroupBox Header="Kies je poort" Margin="10">
+                        <ComboBox Margin="10" SelectionChanged="arduinoPortName_SelectionChanged" Name="arduinoPortName"></ComboBox>
+                    </GroupBox>
+                    <StackPanel Orientation="Horizontal" >
+                        <GroupBox Header="Start" Margin="10">
+                            <Button Margin="10" Content="Click to start" Width="100" 
+                        IsEnabled="False" Click="buttonStart_Click" Name="buttonStart"></Button>
+                        </GroupBox>
+                        <GroupBox Header="Reset" Height="70" Margin="10">
+                            <Button Margin="10" Content="Click to reset" Width="100" 
+                        IsEnabled="False" Click="buttonReset_Click" Name="buttonReset"></Button>
+                        </GroupBox>
+                    </StackPanel>
+                    <GroupBox Margin="10" Width="100" HorizontalAlignment="Left">
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="Score:"></Label>
+                            <TextBlock Name="scoreText" Height="20" Width="30" Margin="0,5"></TextBlock>
+                            <!--Label Content="Highscore:"></Label>
+                    <TextBlock Name="highscoreText" Height="20" Width="140"></TextBlock-->
+                        </StackPanel>
+                    </GroupBox>
+                    <GroupBox Header="Jump" Margin="10" Height="270">
+                        <Button Margin="10" Content="Click to jump"
+                    IsEnabled="False" Click="buttonJump_Click" Name="buttonJump"></Button>
+                    </GroupBox>
+                </StackPanel>
+            </Grid>
+        </Border>
+    </Border>
+</Window>
